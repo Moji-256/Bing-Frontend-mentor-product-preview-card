@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(250, 218, 217);
+}
+
+.card{
+    display: flex;
+    
+    width: 750px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.Pimage{
+    height: 100%;
+    width: auto;
+    border-radius: 20px 0 0 20px;
+}
+
+.text{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.type{
+    font-family: "Anaheim",sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.name{
+    margin: 20px 0;
+    font-size: 3rem;
+    font-family: "Poiret One",sans-serif;
+    font-weight: bolder;
+}
+
+.descrip{
+    font-family: "Baloo Tamma 2",sans-serif;
+    font-size: 15px;
+}
+
+.price{
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+.after{
+    font-family: "Abril Fatface", serif;
+    font-size: 40px;
+    color: palevioletred;
+    margin-right: 20px;
+}
+
+.before{
+    padding-top: 10px;
+    font-family: "Baloo Tamma 2",sans-serif;
+    text-decoration: line-through;
+}
+
+.button{
+    height: 50px;
+    width: 100%;
+}
+
+
+.cart{
+    display: flex;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 10px;
+
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 234, 233);
+    align-items: center;
+    justify-content: center;
+}
+
+.cart:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.textbt{
+    text-decoration: none;
+    font-family: "Baloo Tamma 2",sans-serif;
+    font-size: 18px;
+}
+
+.logo{
+    font-size: 20px;
+    margin-right: 10px;
+}
